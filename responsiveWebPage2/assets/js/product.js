@@ -1,5 +1,5 @@
-var scopeTag = '<p><div><img width="600" height="300" src="images/businessScope.png" alt=""/></div><p style="margin-left: -2em;">ACETECH Business Scope</p></p>'
-var communicationTag = '<div style="width:800px;text-align:left;"><p>- SECS I/II : Semiconductor Equipment Communication Standard</p><p>- HSMS : High Speed SECS Message Service : by SEMI<br/>(Semiconductor Equipment and Material Institute)</p><p>- TCP/IP</p><p>- PLC</p><p>- RS-232&RS-422 : Transfer Data using Serial Port</p></div>';
+var scopeTag = '<p><div><img width="600" height="300" src="images/businessScope.png" alt=""/></div><p>ACETECH Business Scope</p></p>'
+var communicationTag = '<div style="margin-left:1.5em;width:100%;text-align:left;"><p>- SECS I/II : Semiconductor Equipment Communication Standard</p><p>- HSMS : High Speed SECS Message Service : by SEMI<br/>(Semiconductor Equipment and Material Institute)</p><p>- TCP/IP</p><p>- PLC</p><p>- RS-232&RS-422 : Transfer Data using Serial Port</p></div>';
 var atomTag = '<div><p><img width="800" height="400" src="images/atom.png"></img><br/><br/></p></div><p style="margin-top:-1em;">ATOM Frame Work(AceTech Online Module)</p>';
 var rcsTag = '<div><p><img width="800" height="400" src="images/rcs1.png"></img><br/><br/></p></div><p style="margin-top:-1em;">RCS(Remote Control System)</p>';
 var rfidTag ='<div><p><img width="800" height="400" src="images/rfid1.png"></img><br/><br/></p></div><p style="margin-top:-1em;">RFID(Radio Frequency IDentification)</p>';

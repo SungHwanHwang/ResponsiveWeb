@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
   background-color: #ffffff;
   padding: 0px 0px 0px 0px;
   width: 100%;
-  height: auto;
+
 	border-bottom: solid black 1px;
 	text-align:center;
 	position: fixed;
@@ -49,38 +49,36 @@ footer, header, hgroup, menu, nav, section {
 	margin-bottom: -2em;
 	display: inline-block;
 }
-
-
 /* Fixed Menu Style */
 
 /* history button */
 ul.lists {
-		list-style: none;
-		cursor: default;
+	list-style: none;
+	cursor: default;
+	text-align:center;
+}
+	ul.lists li {
+		margin-bottom:2em;	
+		margin-left:3em;
+	}
+	ul.lists button {
+		width:170px;
 		text-align:center;
 	}
-		ul.lists li {
-			margin-bottom:2em;	
-			margin-left:3em;
-		}
-		ul.lists button {
-			width:170px;
-			text-align:center;
-		}
 /* history button */
 
 /* history content */
 ul.lists2 {
-		list-style: none;
-		cursor: default;
+	list-style: none;
+	cursor: default;
+}
+	ul.lists2 li {
+		margin-bottom:2.3em;
 	}
-		ul.lists2 li {
-			margin-bottom:2.3em;
-		}
-		
-		ul.lists2 li p {
-			font-weight:bold;
-		}
+	
+	ul.lists2 li p {
+		font-weight:bold;
+	}
 /* history content */
 
 /* product button */
@@ -91,6 +89,7 @@ ul.lists3 {
 	ul.lists3 button {
 		width:170px;
 		margin-bottom: 3em;
+		margin-left: -1.5em;
 	}
 /* product button*/
 
@@ -104,11 +103,15 @@ ul.lists3 {
 		font-weight: bold;
 		color:#0c3b87;
 		font-size: 20px;
+		width: 100%;
 	}
 	
 	.lists4 img {
-		width: 100%;
+		width: 90%;
 		height:auto;
+	}
+	.lists4 #productMain {
+		margin-right: -2em;
 	}
 /* product content */
 
@@ -380,6 +383,61 @@ input, select, textarea {
 			}
 
 		}
+
+		@media screen and (max-width:1000px) {
+			.lists {
+				margin-left: 2em;
+			}
+			.lists2 {
+				margin-left: -2em;
+			}
+			.inner {
+				margin-top:7em;
+			}
+	
+		}
+
+		@media screen and (max-width:990px) {
+			.lists {
+				margin-left: 3em;
+			}
+			.lists2 {
+				margin-left: -3em;
+			}
+			.inner {
+				margin-top:9em;	
+			}
+		}
+
+		@media screen and (max-width:980px) {
+			.lists {
+				display: none;
+			}
+			#nana {
+				width:100%;
+				margin-left: 2em;
+			}
+			.inner {
+				margin-top:13em;
+			}
+		}
+		
+		@media screen and (max-width:480px) {
+			.topFixBanner {
+				display: none;
+			}
+			.lists4 p {
+				font-size: 15px; 
+			}
+
+			ul.lists3 button {
+				margin-bottom: 0;
+			}
+		}
+
+ 
+
+
 
 /* Row */
 
@@ -3078,7 +3136,7 @@ input, select, textarea {
 	
 		#header h2 {
 		
-			margin: 6em auto 0em 0em;
+			margin: 5em auto 0em 0em;
 			min-width:270px;
 			font-weight:bold;
 		}
@@ -3131,9 +3189,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 		
-		#header .inner p {
-			font-size : 25px;	
-		}
+
 
 			#header .inner .actions {
 				-moz-transition: -moz-transform 1.25s ease;
